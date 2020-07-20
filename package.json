@@ -1,6 +1,6 @@
 {
   "name": "navigation",
-  "repository": "git@github.com:react-microfrontends/navbar.git",
+  "repository": "git@github.com:rhuxd-single-spa-poc/navigation.git",
   "author": "",
   "license": "ISC",
   "version": "1.0.0",
