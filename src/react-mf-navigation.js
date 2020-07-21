@@ -9,11 +9,7 @@ const lifecycles = singleSpaReact({
   ReactDOM,
   rootComponent: Root,
   errorBoundary(err, info, props) {
-    return (
-      <div className="h-16 flex items-center justify-between px-6 bg-primary text-white">
-        Error
-      </div>
-    );
+    return <div>Error</div>;
   },
 });
 
