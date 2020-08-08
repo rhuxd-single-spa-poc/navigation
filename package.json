@@ -11,6 +11,7 @@
     "start": "webpack-dev-server",
     "test": "jest --passWithNoTests",
     "build": "webpack --mode=production",
+    "push": "yarn build && scripts/push.sh",
     "analyze": "webpack --mode=production --env.analyze=true",
     "format": "prettier --write './**'",
     "watch-tests": "jest --watch",
