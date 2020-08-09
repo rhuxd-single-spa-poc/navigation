@@ -3,7 +3,7 @@
 DIR=$(dirname "$0")
 source ${DIR}/common/logger.sh
 
-VERSION=$(git rev-parse HEAD)
+VERSION=${VERSION:-$(git rev-parse HEAD)}
 DIST_DIR=dist
 FILENAME=react-mf-navigation.js
 
@@ -43,6 +43,7 @@ clean() {
 }
 
 # execute
+clean
 copyDist
 deploy
 clean
